@@ -17,21 +17,26 @@
 
 @layer components {
   .arabic-text {
-    font-family: 'Noto Naskh Arabic', serif;
+    font-family: 'Noto Naskh Arabic', 'Amiri', 'Scheherazade New', 'Arabic UI Text', serif;
     line-height: 1.8;
+    font-feature-settings: 'liga' 1, 'dlig' 1, 'calt' 1;
+    text-rendering: optimizeLegibility;
   }
   
   .unmapped-char {
     background-color: #fff3e0;
     border-bottom: 2px dashed #f57c00;
     padding: 0 2px;
-    border-radius: 2px;
+    border-radius: 3px;
     position: relative;
     cursor: help;
+    transition: all 0.15s ease-out;
   }
   
   .unmapped-char:hover {
     background-color: #ffe0b2;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(245, 124, 0, 0.2);
   }
   
   .conversion-textarea {
@@ -51,26 +56,43 @@
     box-shadow: 0 0 0 3px rgba(26, 84, 144, 0.1);
   }
   
-  .convert-button {
+.convert-button {
     background: linear-gradient(135deg, #2e7d32 0%, #4caf50 100%);
     border: none;
     color: white;
     padding: 12px 32px;
     font-size: 16px;
     font-weight: 600;
-    border-radius: 8px;
+    border-radius: 10px;
     cursor: pointer;
-    transition: all 0.15s ease-out;
-    box-shadow: 0 2px 8px rgba(46, 125, 50, 0.2);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 12px rgba(46, 125, 50, 0.25);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .convert-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+  }
+  
+  .convert-button:hover::before {
+    left: 100%;
   }
   
   .convert-button:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(46, 125, 50, 0.35);
   }
   
   .convert-button:active {
-    transform: scale(0.98);
+    transform: scale(0.98) translateY(-1px);
   }
   
   .convert-button:disabled {
@@ -78,6 +100,10 @@
     cursor: not-allowed;
     transform: none;
     box-shadow: 0 2px 8px rgba(46, 125, 50, 0.2);
+  }
+  
+  .convert-button:disabled::before {
+    display: none;
   }
   
   .status-badge {
@@ -128,10 +154,51 @@
 @media (prefers-contrast: high) {
   .conversion-textarea {
     border-width: 3px;
+    border-color: #000;
   }
   
   .unmapped-char {
-    border-bottom-width: 3px;
-    background-color: #fff59d;
+    border-bottom-width: 4px;
+    background-color: #ffeb3b;
+    color: #000;
+  }
+  
+  .convert-button {
+    border: 2px solid #fff;
+  }
+  
+  .status-badge, .error-badge {
+    border: 1px solid #fff;
+  }
+}
+
+/* Print styles */
+@media print {
+  .convert-button,
+  .Toastify__toast-container {
+    display: none !important;
+  }
+  
+  .conversion-textarea {
+    border: 1px solid #000 !important;
+    background: white !important;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+  }
+  
+  .conversion-textarea {
+    background-color: #2d2d2d;
+    border-color: #404040;
+    color: #e0e0e0;
+  }
+  
+  .conversion-textarea:focus {
+    border-color: #4a90e2;
   }
 }
