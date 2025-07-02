@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'react-toastify/dist/ReactToastify.css';
+
+@layer base {
+  html {
+    font-family: Inter, system-ui, sans-serif;
+  }
+  
+  body {
+    font-family: Inter, system-ui, sans-serif;
+    background-color: #f5f5f5;
+  }
+}
+
+@layer components {
+  .arabic-text {
+    font-family: 'Noto Naskh Arabic', serif;
+    line-height: 1.8;
+  }
+  
+  .unmapped-char {
+    background-color: #fff3e0;
+    border-bottom: 2px dashed #f57c00;
+    padding: 0 2px;
+    border-radius: 2px;
+    position: relative;
+    cursor: help;
+  }
+  
+  .unmapped-char:hover {
+    background-color: #ffe0b2;
+  }
+  
+  .conversion-textarea {
+    resize: none;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    transition: border-color 0.15s ease-out;
+  }
+  
+  .conversion-textarea:focus {
+    outline: none;
+    border-color: #1a5490;
+    box-shadow: 0 0 0 3px rgba(26, 84, 144, 0.1);
+  }
+  
+  .convert-button {
+    background: linear-gradient(135deg, #2e7d32 0%, #4caf50 100%);
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.15s ease-out;
+    box-shadow: 0 2px 8px rgba(46, 125, 50, 0.2);
+  }
+  
+  .convert-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);
+  }
+  
+  .convert-button:active {
+    transform: scale(0.98);
+  }
+  
+  .convert-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: 0 2px 8px rgba(46, 125, 50, 0.2);
+  }
+  
+  .status-badge {
+    background: linear-gradient(135deg, #1a5490 0%, #2196f3 100%);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .error-badge {
+    background: linear-gradient(135deg, #f44336 0%, #ff5722 100%);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+/* Toast customization */
+.Toastify__toast-container {
+  z-index: 9999;
+}
+
+.Toastify__toast {
+  border-radius: 8px;
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 14px;
+  padding: 12px 16px;
+}
+
+.Toastify__progress-bar {
+  height: 3px;
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .conversion-textarea {
+    border-width: 3px;
+  }
+  
+  .unmapped-char {
+    border-bottom-width: 3px;
+    background-color: #fff59d;
+  }
+}

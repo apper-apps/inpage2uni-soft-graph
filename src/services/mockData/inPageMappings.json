@@ -1,0 +1,469 @@
+{
+  "description": "InPage to Unicode character mappings for Sindhi/Urdu text conversion",
+  "version": "1.0.0",
+  "lastUpdated": "2024-01-15",
+  "mappings": [
+    {
+      "inPageChar": "ا",
+      "unicodeChar": "ا",
+      "type": "basic",
+      "description": "Alif"
+    },
+    {
+      "inPageChar": "آ",
+      "unicodeChar": "آ",
+      "type": "basic",
+      "description": "Alif with Madda above"
+    },
+    {
+      "inPageChar": "ب",
+      "unicodeChar": "ب",
+      "type": "basic",
+      "description": "Beh"
+    },
+    {
+      "inPageChar": "پ",
+      "unicodeChar": "پ",
+      "type": "basic",
+      "description": "Peh"
+    },
+    {
+      "inPageChar": "ت",
+      "unicodeChar": "ت",
+      "type": "basic",
+      "description": "Teh"
+    },
+    {
+      "inPageChar": "ٹ",
+      "unicodeChar": "ٹ",
+      "type": "basic",
+      "description": "Tteh"
+    },
+    {
+      "inPageChar": "ث",
+      "unicodeChar": "ث",
+      "type": "basic",
+      "description": "Theh"
+    },
+    {
+      "inPageChar": "ج",
+      "unicodeChar": "ج",
+      "type": "basic",
+      "description": "Jeem"
+    },
+    {
+      "inPageChar": "چ",
+      "unicodeChar": "چ",
+      "type": "basic",
+      "description": "Cheh"
+    },
+    {
+      "inPageChar": "ح",
+      "unicodeChar": "ح",
+      "type": "basic",
+      "description": "Hah"
+    },
+    {
+      "inPageChar": "خ",
+      "unicodeChar": "خ",
+      "type": "basic",
+      "description": "Khah"
+    },
+    {
+      "inPageChar": "د",
+      "unicodeChar": "د",
+      "type": "basic",
+      "description": "Dal"
+    },
+    {
+      "inPageChar": "ڈ",
+      "unicodeChar": "ڈ",
+      "type": "basic",
+      "description": "Ddal"
+    },
+    {
+      "inPageChar": "ذ",
+      "unicodeChar": "ذ",
+      "type": "basic",
+      "description": "Thal"
+    },
+    {
+      "inPageChar": "ر",
+      "unicodeChar": "ر",
+      "type": "basic",
+      "description": "Reh"
+    },
+    {
+      "inPageChar": "ڑ",
+      "unicodeChar": "ڑ",
+      "type": "basic",
+      "description": "Rreh"
+    },
+    {
+      "inPageChar": "ز",
+      "unicodeChar": "ز",
+      "type": "basic",
+      "description": "Zain"
+    },
+    {
+      "inPageChar": "ژ",
+      "unicodeChar": "ژ",
+      "type": "basic",
+      "description": "Jeh"
+    },
+    {
+      "inPageChar": "س",
+      "unicodeChar": "س",
+      "type": "basic",
+      "description": "Seen"
+    },
+    {
+      "inPageChar": "ش",
+      "unicodeChar": "ش",
+      "type": "basic",
+      "description": "Sheen"
+    },
+    {
+      "inPageChar": "ص",
+      "unicodeChar": "ص",
+      "type": "basic",
+      "description": "Sad"
+    },
+    {
+      "inPageChar": "ض",
+      "unicodeChar": "ض",
+      "type": "basic",
+      "description": "Dad"
+    },
+    {
+      "inPageChar": "ط",
+      "unicodeChar": "ط",
+      "type": "basic",
+      "description": "Tah"
+    },
+    {
+      "inPageChar": "ظ",
+      "unicodeChar": "ظ",
+      "type": "basic",
+      "description": "Zah"
+    },
+    {
+      "inPageChar": "ع",
+      "unicodeChar": "ع",
+      "type": "basic",
+      "description": "Ain"
+    },
+    {
+      "inPageChar": "غ",
+      "unicodeChar": "غ",
+      "type": "basic",
+      "description": "Ghain"
+    },
+    {
+      "inPageChar": "ف",
+      "unicodeChar": "ف",
+      "type": "basic",
+      "description": "Feh"
+    },
+    {
+      "inPageChar": "ق",
+      "unicodeChar": "ق",
+      "type": "basic",
+      "description": "Qaf"
+    },
+    {
+      "inPageChar": "ک",
+      "unicodeChar": "ک",
+      "type": "basic",
+      "description": "Keheh"
+    },
+    {
+      "inPageChar": "گ",
+      "unicodeChar": "گ",
+      "type": "basic",
+      "description": "Gaf"
+    },
+    {
+      "inPageChar": "ل",
+      "unicodeChar": "ل",
+      "type": "basic",
+      "description": "Lam"
+    },
+    {
+      "inPageChar": "م",
+      "unicodeChar": "م",
+      "type": "basic",
+      "description": "Meem"
+    },
+    {
+      "inPageChar": "ن",
+      "unicodeChar": "ن",
+      "type": "basic",
+      "description": "Noon"
+    },
+    {
+      "inPageChar": "ں",
+      "unicodeChar": "ں",
+      "type": "basic",
+      "description": "Noon Ghunna"
+    },
+    {
+      "inPageChar": "و",
+      "unicodeChar": "و",
+      "type": "basic",
+      "description": "Waw"
+    },
+    {
+      "inPageChar": "ہ",
+      "unicodeChar": "ہ",
+      "type": "basic",
+      "description": "Heh Goal"
+    },
+    {
+      "inPageChar": "ھ",
+      "unicodeChar": "ھ",
+      "type": "basic",
+      "description": "Heh Doachashmee"
+    },
+    {
+      "inPageChar": "ء",
+      "unicodeChar": "ء",
+      "type": "basic",
+      "description": "Hamza"
+    },
+    {
+      "inPageChar": "ی",
+      "unicodeChar": "ی",
+      "type": "basic",
+      "description": "Yeh"
+    },
+    {
+      "inPageChar": "ے",
+      "unicodeChar": "ے",
+      "type": "basic",
+      "description": "Yeh Barree"
+    },
+    {
+      "inPageChar": "َ",
+      "unicodeChar": "َ",
+      "type": "diacritic",
+      "description": "Fatha"
+    },
+    {
+      "inPageChar": "ُ",
+      "unicodeChar": "ُ",
+      "type": "diacritic",
+      "description": "Damma"
+    },
+    {
+      "inPageChar": "ِ",
+      "unicodeChar": "ِ",
+      "type": "diacritic",
+      "description": "Kasra"
+    },
+    {
+      "inPageChar": "ً",
+      "unicodeChar": "ً",
+      "type": "diacritic",
+      "description": "Fathatan"
+    },
+    {
+      "inPageChar": "ٌ",
+      "unicodeChar": "ٌ",
+      "type": "diacritic",
+      "description": "Dammatan"
+    },
+    {
+      "inPageChar": "ٍ",
+      "unicodeChar": "ٍ",
+      "type": "diacritic",
+      "description": "Kasratan"
+    },
+    {
+      "inPageChar": "ّ",
+      "unicodeChar": "ّ",
+      "type": "diacritic",
+      "description": "Shadda"
+    },
+    {
+      "inPageChar": "ْ",
+      "unicodeChar": "ْ",
+      "type": "diacritic",
+      "description": "Sukun"
+    },
+    {
+      "inPageChar": "٠",
+      "unicodeChar": "٠",
+      "type": "numeral",
+      "description": "Arabic-Indic Digit Zero"
+    },
+    {
+      "inPageChar": "١",
+      "unicodeChar": "١",
+      "type": "numeral",
+      "description": "Arabic-Indic Digit One"
+    },
+    {
+      "inPageChar": "٢",
+      "unicodeChar": "٢",
+      "type": "numeral",
+      "description": "Arabic-Indic Digit Two"
+    },
+    {
+      "inPageChar": "٣",
+      "unicodeChar": "٣",
+      "type": "numeral",
+      "description": "Arabic-Indic Digit Three"
+    },
+    {
+      "inPageChar": "٤",
+      "unicodeChar": "٤",
+      "type": "numeral",
+      "description": "Arabic-Indic Digit Four"
+    },
+    {
+      "inPageChar": "٥",
+      "unicodeChar": "٥",
+      "type": "numeral",
+      "description": "Arabic-Indic Digit Five"
+    },
+    {
+      "inPageChar": "٦",
+      "unicodeChar": "٦",
+      "type": "numeral",
+      "description": "Arabic-Indic Digit Six"
+    },
+    {
+      "inPageChar": "٧",
+      "unicodeChar": "٧",
+      "type": "numeral",
+      "description": "Arabic-Indic Digit Seven"
+    },
+    {
+      "inPageChar": "٨",
+      "unicodeChar": "٨",
+      "type": "numeral",
+      "description": "Arabic-Indic Digit Eight"
+    },
+    {
+      "inPageChar": "٩",
+      "unicodeChar": "٩",
+      "type": "numeral",
+      "description": "Arabic-Indic Digit Nine"
+    },
+    {
+      "inPageChar": "،",
+      "unicodeChar": "،",
+      "type": "punctuation",
+      "description": "Arabic Comma"
+    },
+    {
+      "inPageChar": "؍",
+      "unicodeChar": "؍",
+      "type": "punctuation",
+      "description": "Arabic Date Separator"
+    },
+    {
+      "inPageChar": "؎",
+      "unicodeChar": "؎",
+      "type": "punctuation",
+      "description": "Arabic Poetic Verse Sign"
+    },
+    {
+      "inPageChar": "؏",
+      "unicodeChar": "؏",
+      "type": "punctuation",
+      "description": "Arabic Sign Misra"
+    },
+    {
+      "inPageChar": "ؐ",
+      "unicodeChar": "ؐ",
+      "type": "diacritic",
+      "description": "Arabic Sign Sallallahou Alayhe Wassallam"
+    },
+    {
+      "inPageChar": "ؑ",
+      "unicodeChar": "ؑ",
+      "type": "diacritic",
+      "description": "Arabic Sign Alayhe Assallam"
+    },
+    {
+      "inPageChar": "ؒ",
+      "unicodeChar": "ؒ",
+      "type": "diacritic",
+      "description": "Arabic Sign Rahmatullahi Alayhe"
+    },
+    {
+      "inPageChar": "ؓ",
+      "unicodeChar": "ؓ",
+      "type": "diacritic",
+      "description": "Arabic Sign Radi Allahou Anhu"
+    },
+    {
+      "inPageChar": "ؔ",
+      "unicodeChar": "ؔ",
+      "type": "diacritic",
+      "description": "Arabic Sign Takhallus"
+    },
+    {
+      "inPageChar": "؛",
+      "unicodeChar": "؛",
+      "type": "punctuation",
+      "description": "Arabic Semicolon"
+    },
+    {
+      "inPageChar": "؟",
+      "unicodeChar": "؟",
+      "type": "punctuation",
+      "description": "Arabic Question Mark"
+    },
+    {
+      "inPageChar": "لا",
+      "unicodeChar": "لا",
+      "type": "ligature",
+      "description": "Lam-Alef ligature"
+    },
+    {
+      "inPageChar": "لآ",
+      "unicodeChar": "لآ",
+      "type": "ligature",
+      "description": "Lam-Alef with Madda above ligature"
+    },
+    {
+      "inPageChar": "لأ",
+      "unicodeChar": "لأ",
+      "type": "ligature",
+      "description": "Lam-Alef with Hamza above ligature"
+    },
+    {
+      "inPageChar": "لإ",
+      "unicodeChar": "لإ",
+      "type": "ligature",
+      "description": "Lam-Alef with Hamza below ligature"
+    },
+    {
+      "inPageChar": " ",
+      "unicodeChar": " ",
+      "type": "punctuation",
+      "description": "Space"
+    },
+    {
+      "inPageChar": "\n",
+      "unicodeChar": "\n",
+      "type": "punctuation",
+      "description": "Line Feed"
+    },
+    {
+      "inPageChar": "\r",
+      "unicodeChar": "\r",
+      "type": "punctuation",
+      "description": "Carriage Return"
+    },
+    {
+      "inPageChar": "\t",
+      "unicodeChar": "\t",
+      "type": "punctuation",
+      "description": "Tab"
+    }
+  ]
+}
